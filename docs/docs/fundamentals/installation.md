@@ -25,15 +25,15 @@ In order to fully utilize the [touch events](/docs/gestures/touch-events/) you a
 
 ## Expo
 
-### Managed [Expo](https://expo.io)
+### Managed [Expo](https://expo.dev)
 
-To use the version of react-native-gesture-handler that is compatible with your managed Expo project, run `expo install react-native-gesture-handler`.
+To use the version of react-native-gesture-handler that is compatible with your managed Expo project, run `npx expo install react-native-gesture-handler`.
 
 The Expo SDK incorporates the latest version of react-native-gesture-handler available at the time of each SDK release, so managed Expo apps might not always support all our latest features as soon as they are available.
 
 ### Bare [React Native](http://reactnative.dev/)
 
-Since the library uses native support for handling gestures, it requires an extended installation to the norm. If you are starting a new project, you may want to initialize it with [expo-cli](https://docs.expo.io/versions/latest/workflow/expo-cli/) and use a bare template, they come pre-installed with react-native-gesture-handler.
+Since the library uses native support for handling gestures, it requires an extended installation to the norm. If you are starting a new project, you may want to initialize it with [create-expo-app](https://docs.expo.dev/more/create-expo/) and use the [default template](https://docs.expo.dev/more/create-expo/#--template). It comes pre-installed with react-native-gesture-handler.
 
 ## JS
 
